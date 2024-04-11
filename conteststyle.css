@@ -1,0 +1,85 @@
+
+
+.contest{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px red solid;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+}
+.innerdiv{
+width:auto;
+height:20px;
+padding: 0px;
+
+margin: 0px;
+
+
+display:flex;
+align-items: center;
+flex-direction: row;
+
+}
+.show
+{
+    border: none;
+    font-size: large;
+    border: 1px black solid;
+    position: relative;
+    padding: 5px;
+    bottom: 13px;
+}
+
+
+
+.spots{
+    
+    width:600px;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    position: relative;
+    top: 0px;
+    
+}
+.spots-filled{
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+#totalspots{
+    position: relative;
+    top:50px;
+}
+.winnertakesall{
+    position: relative;
+    left: -95px;
+}
+.join{
+    margin-right: 10px;
+    font-weight:900px;
+    font: caption;
+    font-size: larger;
+    font-size:23px;
+    
+    
+    
+}
+Preview{
+border: 2px yellow solid;
+}
+.outerdiv{
+    border: 2px yellow solid;
+}
+.size{
+    font-size: large;
+    position: relative;
+
+    
+
+}

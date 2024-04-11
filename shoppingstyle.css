@@ -1,0 +1,37 @@
+.storage{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product{
+    width: 300px;
+    height: 180px;
+    display: flex;
+    flex-direction:row
+    ;
+    gap:5px;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom: 50px;
+}
+span{
+    font-weight: bold;
+}
+
+img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product-card{
+    width: 300px;
+    height: 150px;
+    
+}

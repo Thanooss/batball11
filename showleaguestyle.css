@@ -1,0 +1,25 @@
+.spots-list{
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
+.container{
+
+margin-top: 20px;
+}
+.pic{
+    border-radius: 50px;
+    max-width:100px;
+    display:inline
+}
+b{
+    position: relative;
+    margin-left: 220px;
+    
+
+}

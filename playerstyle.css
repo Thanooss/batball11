@@ -1,0 +1,172 @@
+ .players-list .team-class  li{
+    display: flex;
+    position: relative;
+    width:220px;
+    height:70px;
+    border: 1px solid black;
+    align-items: center;
+    
+    margin-left: -32px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+    
+
+}
+.nextbtn{
+    border: black solid 2px;
+}
+body{  
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+}
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+.players-list{
+    width:auto;
+    
+    height:460px;
+    overflow: auto;
+
+    display: flex;
+    padding: 0px;
+    border: pink solid 1px;
+    margin: 0px;
+
+    position: relative;
+    
+
+    
+
+}
+.team-class{
+
+padding: 0px;
+margin: 0px;
+width: 50%;
+height: auto;
+
+
+}
+
+.nextbtn{
+    position: relative;
+    left: 300px;
+    width: 50px;
+    padding: 2px;
+}
+.selected{
+    background-color: rgb(220, 206, 206);
+}
+
+.counterheading{
+    color:black;
+    font: bolder;
+    font-size:1rem;
+    user-select: none;
+}
+.counter{
+    color:green;
+    font-size: 1rem;
+}
+.role{
+    user-select: none;
+    font-size: 0.7rem;
+    top:-8px;
+    font-weight: bold;
+    position: relative;
+}
+.name{
+    user-select: none;
+    font-size:0.8rem;
+    color:brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    ;
+
+    position: relative;
+    
+top: 5px;
+}
+.team{
+    color:rgb(147, 61, 61);
+    position: relative;
+    font-size: 0.7rem;
+    top: 29px;
+    font: bold;
+    
+    
+    user-select: none;
+
+}
+.previewbtn{
+    width:70px;
+    padding: 2px;
+}
+.credits{
+    
+    box-sizing: border-box;
+    border: 2px black solid;
+    height: 50px;
+    width:92.5%;
+    margin: auto;
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    user-select: none;
+    
+    margin:1px 5px 50px 5px;
+    background-color: white;
+    z-index: 2;
+
+    
+}
+.cr{
+    user-select: none;
+    font-size: 0.9rem;
+    margin: 10px;
+}
+ .span-credits{
+    font-weight: bold;
+    color:black;
+}
+.noraml{
+    user-select: none;
+color:royalblue;
+}
+.danger{
+    user-select: none;
+    color: red;
+}
+.left{
+    
+    font-size:1rem;
+}
+.right{
+    
+    font-size:1rem;
+}
+
+
+ul{
+    list-style-type: none;
+}
+.profile{
+    user-select: none;
+    flex: 0.5;
+    padding: 0px;
+    margin:0px;
+    width: 60px;
+    
+    
+    height: 70px;
+    object-fit: contain;
+}

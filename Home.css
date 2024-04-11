@@ -1,0 +1,19 @@
+.footer{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    height:30px;
+    width: 100%;
+    margin:7px;
+
+
+}
+.home-outer-div{
+    border: 2px white solid;
+}
+.footer .btn-secondary{
+    border: 2px red solid;
+    margin:0px 3px 0px 3px;
+    color:yellow;
+    
+}

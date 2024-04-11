@@ -1,0 +1,8 @@
+def printtables(fro,to):
+ print("printing tables from", fro, "to", to )
+ for i in range(fro,to+1):
+  print("printing ",i, " table")
+  for x in range(1,11):
+      c=i*x
+      print(i," * ",x," = " ,c )
+printtables(10,20)      
